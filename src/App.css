@@ -1,0 +1,86 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.elementor-post__read-more{
+  color:limegreen;
+}
+
+ul {
+  list-style:none;
+  background-color:rgba(26, 193, 26, 0.816) ;
+}
+  
+li {
+  display: inline-block;
+  margin-right: 30px; /* add spacing between items */
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 50px; 
+}
+
+h3{
+  color:black;
+}
+.course{
+  border: 1px solid lightgray;
+  overflow:hidden;
+  margin-bottom: 20px;
+  width:300px;
+  box-shadow: 0px 0px 15px 3px rgba(148,148,148,1);
+}
+.ds-course{
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  width:350px;
+  box-shadow: 0px 0px 15px 3px rgba(148,148,148,1);
+}
+.ds-course a{
+  display: block;
+  font-size: small;
+}
+.ds-course p{
+  font-size: smaller;
+}
+
+.cs-course{
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  width:400px;
+  box-shadow: 0px 0px 15px 3px rgba(148,148,148,1);
+}
+.cs-course img{
+  width:400px;
+  height:200px;
+}
+
+.careers{
+  border: 1px solid lightgray;
+  overflow:hidden;
+  margin:10px;
+  width:400px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 3px rgba(148,148,148,1);
+}
+.careers img{
+  width: 400px;
+}
+.txt-space{
+  padding: 15px;
+  width:350px;
+  height:280px;
+}
+img{
+  width:350px;
+  height:180px;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
